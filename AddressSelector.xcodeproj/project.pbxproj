@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C76FC5820B407D8003D72B4 /* AddressSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C76FC5620B407D8003D72B4 /* AddressSelector.swift */; };
+		9C76FC5920B407D8003D72B4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C76FC5720B407D8003D72B4 /* data.json */; };
 		9CA9C0EE20B26FEC00463225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9C0ED20B26FEC00463225 /* AppDelegate.swift */; };
 		9CA9C0F020B26FEC00463225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9C0EF20B26FEC00463225 /* ViewController.swift */; };
 		9CA9C0F320B26FEC00463225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA9C0F120B26FEC00463225 /* Main.storyboard */; };
 		9CA9C0F520B26FEE00463225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA9C0F420B26FEE00463225 /* Assets.xcassets */; };
 		9CA9C0F820B26FEE00463225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA9C0F620B26FEE00463225 /* LaunchScreen.storyboard */; };
-		9CA9C10020B2701400463225 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CA9C0FF20B2701400463225 /* data.json */; };
-		9CCD4A6A20B3F18700BBBDF9 /* AddressSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CCD4A6920B3F18700BBBDF9 /* AddressSelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C76FC5620B407D8003D72B4 /* AddressSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressSelector.swift; sourceTree = "<group>"; };
+		9C76FC5720B407D8003D72B4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		9CA9C0EA20B26FEC00463225 /* AddressSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA9C0ED20B26FEC00463225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA9C0EF20B26FEC00463225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,8 +26,6 @@
 		9CA9C0F420B26FEE00463225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA9C0F720B26FEE00463225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA9C0F920B26FEE00463225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CA9C0FF20B2701400463225 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		9CCD4A6920B3F18700BBBDF9 /* AddressSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C76FC5520B407D8003D72B4 /* AddressSelector */ = {
+			isa = PBXGroup;
+			children = (
+				9C76FC5620B407D8003D72B4 /* AddressSelector.swift */,
+				9C76FC5720B407D8003D72B4 /* data.json */,
+			);
+			path = AddressSelector;
+			sourceTree = "<group>";
+		};
 		9CA9C0E120B26FEC00463225 = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +67,13 @@
 		9CA9C0EC20B26FEC00463225 /* AddressSelector */ = {
 			isa = PBXGroup;
 			children = (
+				9C76FC5520B407D8003D72B4 /* AddressSelector */,
 				9CA9C0ED20B26FEC00463225 /* AppDelegate.swift */,
 				9CA9C0EF20B26FEC00463225 /* ViewController.swift */,
 				9CA9C0F120B26FEC00463225 /* Main.storyboard */,
 				9CA9C0F420B26FEE00463225 /* Assets.xcassets */,
 				9CA9C0F620B26FEE00463225 /* LaunchScreen.storyboard */,
 				9CA9C0F920B26FEE00463225 /* Info.plist */,
-				9CA9C0FF20B2701400463225 /* data.json */,
-				9CCD4A6920B3F18700BBBDF9 /* AddressSelector.swift */,
 			);
 			path = AddressSelector;
 			sourceTree = "<group>";
@@ -131,7 +139,7 @@
 				9CA9C0F820B26FEE00463225 /* LaunchScreen.storyboard in Resources */,
 				9CA9C0F520B26FEE00463225 /* Assets.xcassets in Resources */,
 				9CA9C0F320B26FEC00463225 /* Main.storyboard in Resources */,
-				9CA9C10020B2701400463225 /* data.json in Resources */,
+				9C76FC5920B407D8003D72B4 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA9C0F020B26FEC00463225 /* ViewController.swift in Sources */,
-				9CCD4A6A20B3F18700BBBDF9 /* AddressSelector.swift in Sources */,
 				9CA9C0EE20B26FEC00463225 /* AppDelegate.swift in Sources */,
+				9C76FC5820B407D8003D72B4 /* AddressSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
